@@ -1,0 +1,154 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All products- Buddy Store </title>
+	<link rel="stylesheet" href="style.css">
+	<link href="http://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap"rel=stylesheet">
+	<link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container">
+	           <div class="navbar">
+	           <div  class="logo">
+	            <img src="images/logo.png" width=250px">
+	</div>
+	<nav>
+	      <ul id="MenuItems">
+		<li><a href="">Home</a></li>
+		<li><a href="">Products</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contact</a></li>
+		<li><a href="">Account</a></li>
+	</ul>
+	</nav>
+	<img src="images/cart.png" width="30px height="30px">
+	<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+              </div> 
+         </div>
+
+<!-------feature products--->
+<div class ="small-container">
+<div class="row" class="row-2">
+	<h2> All Products</h2>
+	<select>
+	<option> Deafault sorting</option>
+	<option> Sort by price</option>
+	<option> Sort by popularity</option>
+	<option> sort by sale</option>
+</select>
+</div>
+
+<div class="row">
+	<div class="col-4">
+	<img src="images/product-1.jpg">
+	<h4> red-printed T-shirt</h4>
+	<div class="rating">
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class=" fa fa-star-o"></i>
+	</div>
+	<p> MRP:  499/-</P>
+	</div>
+	<div class="col-4">
+	<img src="images/product-2.jpg">
+	<h4> snekkers-shoes-mens</h4>
+	<div class="rating">
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class=" fa fa-star-half-o"></i>
+	</div>
+	<p> MRP :- 999/-</P>
+</div>
+	<div class="col-4">
+	<img src="images/product-3.jpg">
+	<h4> stylish track mens</h4>
+	<div class="rating">
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class=" fa fa-star-half-o"></i>
+	</div>
+	<P> MRP: 1111/-
+</div>
+	<div class="col-4">
+	<img src="images/product-4.jpg">
+	<h4> ck T-shirt</h4>
+	<div class="rating">
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class ="fa fa-star"></i>
+		<i class=" fa fa-star-o"></i>
+	</div>
+	<p> MRP : 1500/-</P>
+	</div>
+	</div>
+</div>
+
+<!--------footer------------>
+
+<div class="footer">
+<div class="container">
+<div class="row">
+	<div class="footer-col-1">
+	<h3> Download Our app</h3>
+	<p> download app from android and playstore</p>
+	<div class="app-logo">
+	<img src="images/play-store.png">
+	<img src="images/app-store.png">
+</div>
+</div>
+	
+	<div class="footer-col-2">
+	<img src="images/logo-white.png">
+	<p> our purpose is make the sports accesebly for many in this world</p>
+</div>
+	
+	<div class="footer-col-3">
+	<h3> Usefull Links</h3>
+	<ul>
+		<li>Cupons</li>
+		<li> Blog Post</li>
+		<li> Return Policy</li>
+		<li> Join Affiliate</li>
+	</ul>
+</div>
+	<div class="footer-col-4">
+	<h3> Follow us</h3>
+	<ul>
+		<li>Facebook</li>
+		<li> twitter</li>
+		<li> instagram</li>
+		<li> You tube</li>
+	</ul>
+</div>
+</div>
+	<hr>
+	<p class="copyright"> Copy Right-2021</p>
+</div>
+</div>
+<!---------js code for menu---------->
+<script>
+	var MenuItems= document.getElememntById("MenuItems");
+	MenuItems.style.maxHeight ="0px";
+	function menutoggle(){
+		if (MenuItems.style.maxHeight =="0px")
+		{
+		MenuItems.style.maxHeight =="200px"
+		}
+		else:
+		{
+		MenuItems.style.maxHeight =="0px"
+		}
+	}
+</script>
+
+</body>
+ </html>
